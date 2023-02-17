@@ -3,13 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sablon</title>
+    <title>Bérlés</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Sablon</h1>
+        <h1>Bérlés</h1>
+        <div><h2>Eladó</h2></div>
+        <div class="mt-3">
+            <input type="text" placeholder="Eladó neve" class="form-control">
+        </div>
+        <div class="mt-3">
+            <input type="radio" id="landlord" name="lease" class="form-check-info">
+            <label for="landlord">Tulaj</label>
+        </div>
+        <div class="mt-3">
+            <input type="radio" id="tenant" name="lease" class="form-check-info">
+            <label for="tenant">Bérlő</label>
+        </div>
+
+        <div><h2>Bérlő</h2></div>
+        <div class="mt-3">
+            <input type="text" placeholder="Bérlő neve" class="form-control">
+        </div>
+        <div class="mt-3">
+            <input type="radio" id="landlords" name="leases" class="form-check-info">
+            <label for="landlords">Tulaj</label>
+        </div>
+        <div class="mt-3">
+            <input type="radio" id="tenants" name="leases" class="form-check-info">
+            <label for="tenants">Bérlő</label>
+        </div>
+
     </div>
     <script src="js/bootstrap.js"></script>
     <script src="app.js"></script>
